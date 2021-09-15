@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    min-width: 1000px;
+    width: 900px;
+}
+
+.container-forms{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px 0 rgb(63, 63, 63);
+    border-radius: 10px;
+}
+
+.container-header-navigation-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-item{
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.leftRadious{
+    border-top-left-radius: 10px;
+}
+
+.rightRadious{
+    border-top-right-radius: 10px;
+}
+
+.selected{
+    background-color: black;
+    color: white; 
+}
